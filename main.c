@@ -18,6 +18,6 @@ int digit_sum(int n)
 
 int main(void) {
   int varIn = atof(readline("Enter an int: "));
-  printf("sum of digits %i is %i.\n", varIn, digit_sum(varIn));
+  printf("sum of digits of %i is %i.\n", varIn, digit_sum(varIn));
   return 0;
 }
